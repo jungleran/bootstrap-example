@@ -20,3 +20,10 @@ $ composer require 'drupal/bootstrap:^3.21'
     > Copy `starterkits/THEMENAME` under the `DRUPAL_ROOT/themes/contrib/bootstrap`, and rename it to `bootstrap_example` under
  `DRUPAL_ROOT/themes/custom` (Recommended)
 
+2. Replace/rename `THEMENAME`/`THEMETITLE` with `Bootstrap Example`/`boostrap_example`
+    - Rename: THEMENAME.starterkit.yml -> bootstrap_example.info.yml
+    - Rename: THEMENAME.libraries.yml -> bootstrap_example.libraries.yml
+    - Rename: THEMENAME.theme -> bootstrap_example.theme
+    - Rename: config/install/THEMENAME.settings.yml -> config/install/bootstrap_example.settings.yml
+    - Rename: config/schema/THEMENAME.schema.yml -> config/schema/bootstrap_example.schema.yml
+    - And replace THEMENAME/THEMETITLE placeholders in files.
