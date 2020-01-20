@@ -7,9 +7,11 @@
     "url": "git+https://github.com/jungleran/bootstrap-example.git"
   },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "bootstrap-sass": "^3.4.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
   },
   "scripts": {
-    "bridge": "gulp bridge"
+    "init": "gulp init"
   }
 }
